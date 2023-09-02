@@ -2,7 +2,7 @@ import './header.css'
 
 
 const Header = () => {
-    let darkModeIcon = document.querySelector('#darkMode-icon');
+    
 
     return (
         <header className="header">
@@ -16,12 +16,15 @@ const Header = () => {
             </nav>
 
             <div className="bx bx-moon" id="darkMode-icon" onClick={() => {
+                let darkModeIcon = document.querySelector('#darkMode-icon');
                 darkModeIcon.classList.toggle('bx-sun');
                 document.body.classList.toggle('modo-escuro');
             }}></div>
 
 
             <div className="bx bx-menu" id="menu-icon" onClick={() => {
+                const menuIcon = document.querySelector('#menu-icon');
+                let navbar = document.querySelector('.navbar');
                 menuIcon.classList.toggle('bx-x');
                 navbar.classList.toggle('active');
             }}></div>
@@ -30,8 +33,7 @@ const Header = () => {
 }
 
 
-const menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -55,10 +57,6 @@ window.onscroll = () => {
     let header = document.querySelector('.header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
-
-    menuIcon.classList.remove('bx-x')
-    navbar.classList.remove('active');
-
 };
 
 
