@@ -1,4 +1,5 @@
 import './principal.css'
+import {} from 'react'
 
 const Principal = () => {
     return (
@@ -9,7 +10,7 @@ const Principal = () => {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde id adipisci autem explicabo tenetur,
         repellat dolorem rem officia optio perferendis quae ipsam voluptas. Maxime dolorem sapiente optio, fugit
         magnam quae!</p>
-      <a href="#cadastro" className="btn">Cadastre-se</a>
+      <a href="#" className="btn">Cadastre-se</a>
     </div>
 
   </section>
