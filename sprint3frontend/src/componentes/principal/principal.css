@@ -55,4 +55,9 @@ span {
     color: var(--main-color);
 }
 
+@media (max-width: 991px) {
+    .home .conteudo-home{
+        max-width: 50rem;
+    }
+}
 

@@ -40,8 +40,16 @@
     margin: 1rem 0 3rem;
 }
 
-@media (max-width: 991px) {
+
+@media (max-width: 991px){
     .objetivos{
         padding-bottom: 7rem;
     }
 }
+
+@media (max-width: 760px){
+    .objetivos h2{
+        margin-bottom: 3rem;
+    }
+}
+
