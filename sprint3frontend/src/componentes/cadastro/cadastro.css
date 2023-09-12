@@ -1,0 +1,57 @@
+.cadastro h2 {
+    margin-bottom: 3rem;
+}
+
+.cadastro form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.cadastro form .caixa-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cadastro form .caixa-input input {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--cor-texto);
+    background: var(--cor-branca);
+    border-radius: .8rem;
+    margin: .9rem 0;
+    box-shadow: 0 .1rem .5rem var(--cor_sombra);
+}
+
+
+.cadastro form .btn {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+#mensagem {
+    display: none;
+    ;
+    padding: 10rem 5rem 4rem;
+    text-align: center;
+    background-color: var(--cor-branca);
+    box-shadow: 0 .5rem .9rem var(--cor_sombra);
+    font-size: 3rem;
+    border-radius: 2rem;
+}
+
+#mensagem h3 {
+    margin-bottom: 6rem;
+}
+
+.mensagem-escondida {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+    .mensagem-aparecendo {
+        opacity: 1;
+    }

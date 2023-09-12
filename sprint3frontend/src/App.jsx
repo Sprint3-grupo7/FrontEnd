@@ -5,6 +5,7 @@ import Principal from './componentes/principal'
 import Sobre from './componentes/sobre'
 import Objetivos from './componentes/objetivos'
 import Premios from './componentes/premios'
+import Cadastro from './componentes/Cadastro'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Sobre />
       <Objetivos />
       <Premios />
+      <Cadastro />
     </>
   )
 }
