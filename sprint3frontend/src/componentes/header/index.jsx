@@ -13,6 +13,7 @@ const Header = () => {
                 <a href="#objetivos">Objetivos</a>
                 <a href="#premios">Prêmios</a>
                 <a href="#cadastro">Cadastro</a>
+                <a href='#reciclar'>Reciclar</a>
             </nav>
 
             <div className="bx bx-moon" id="darkMode-icon" onClick={() => {

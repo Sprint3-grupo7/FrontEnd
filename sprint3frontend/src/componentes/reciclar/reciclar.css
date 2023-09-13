@@ -1,0 +1,33 @@
+.reciclar{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.reciclar h2{
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+}
+
+.botoes-reciclar{
+    border-radius: .8rem;
+}
+
+.btn-reciclar{
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: var(--cor-principal);
+    border-radius: .6rem;
+    font-size: 1.6rem;
+    box-shadow: 0.2rem .5rem var(--cor_sombra);
+    color: #fdfdfd;
+    font-weight: 600;
+    border: .2rem solid transparent;
+    transition: .5s ease;
+    margin: 2rem;
+}
+
+.btn-reciclar:hover{
+    background: transparent;
+    color: var(--main-color);
+    cursor: pointer;
+}

@@ -31,27 +31,3 @@
     margin-top: 3rem;
     cursor: pointer;
 }
-
-#mensagem {
-    display: none;
-    ;
-    padding: 10rem 5rem 4rem;
-    text-align: center;
-    background-color: var(--cor-branca);
-    box-shadow: 0 .5rem .9rem var(--cor_sombra);
-    font-size: 3rem;
-    border-radius: 2rem;
-}
-
-#mensagem h3 {
-    margin-bottom: 6rem;
-}
-
-.mensagem-escondida {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-    .mensagem-aparecendo {
-        opacity: 1;
-    }
