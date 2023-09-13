@@ -7,6 +7,7 @@ import Objetivos from './componentes/objetivos'
 import Premios from './componentes/premios'
 import Cadastro from './componentes/Cadastro'
 import Reciclar from './componentes/reciclar'
+import Footer from './componentes/footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Premios />
       <Cadastro />
       <Reciclar />
+      <Footer />
     </>
   )
 }
