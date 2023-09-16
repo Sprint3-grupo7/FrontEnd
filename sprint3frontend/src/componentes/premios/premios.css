@@ -84,6 +84,10 @@
     color: var(--main-color);
 }
 
+img{
+    height: 28rem;
+}
+
 @media (max-width: 760px){
     .premios .container-premios{
         grid-template-columns: 1fr;

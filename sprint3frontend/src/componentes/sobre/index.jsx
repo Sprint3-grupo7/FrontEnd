@@ -11,13 +11,13 @@ const Sobre = () => {
             <div className="conteudo-sobre">
                 <h2 className="heading">Sobre o EcoPoints</h2>
                 <h3>O que você precisa saber sobre esse projeto.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Debitis in dolor iure ut minima quo velit. Nulla mollitia
-                    similique quasi dolor, eos vel accusamus sit assumenda
-                    delectus quod et quas? Optio est rem sunt excepturi autem
-                    harum velit id facere?</p>
+                <p>O projeto consiste na implementação de lixeiras com sensores especiais em variados locais de uma cidade
+                    , esses sensores servirão para calcular a quantidade de lixo reciclado pelos usuários e então force-los uma 
+                    quantidade de pontos de acordo com o lixo que foi reciclado, pontos esses que poderão ser usados para resgatar
+                    alguns prêmios simples, como descontos em eventos culturais ou em passagens de transporte público.
+                </p>
 
-                <a href="#" className="btn">Ler Mais</a>
+                <a href="#objetivos" className="btn">Saber Mais</a>
 
             </div>
         </section>

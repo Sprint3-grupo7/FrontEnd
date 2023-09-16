@@ -39,7 +39,11 @@ const Reciclar = () =>{
         </section>
         
         </>
+
+        
     )
 }
+
+
 
 export default Reciclar
