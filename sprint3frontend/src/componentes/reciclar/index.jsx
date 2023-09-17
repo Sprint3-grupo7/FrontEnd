@@ -20,6 +20,11 @@ const Reciclar = () =>{
           }
     };
 
+    const gerarNumeroAleatorio = () => {
+        const numeroAleatorio = Math.floor(Math.random() * 6) + 1;
+        setNumero(numeroAleatorio);
+      };
+
     const exibirMensagem = () => {
         var pontos = numero * 1000
         alert(`Você ganhou ${pontos} pontos!`);
@@ -32,7 +37,8 @@ const Reciclar = () =>{
             <h2>Peso do lixo reciclado(limite 6kg): {numero}KG</h2>
             <div className='botoes-reciclagem'>
                 <button className='btn-reciclar' onClick={diminuirNumero}>-</button>
-                <button className='btn-reciclar' onClick={aumentarNumero}>+</button>               
+                <button className='btn-reciclar' onClick={aumentarNumero}>+</button>  
+                <button className='btn-reciclar' onClick={gerarNumeroAleatorio}>Aleatório</button>             
             </div>
             
             <button className='btn-reciclar' onClick={exibirMensagem}>Confirmar</button>
