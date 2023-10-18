@@ -1,5 +1,5 @@
 import {} from 'react'
-import './cadastro.css'
+import './cadastro.scss'
 
 const Cadastro = () => {
     return(

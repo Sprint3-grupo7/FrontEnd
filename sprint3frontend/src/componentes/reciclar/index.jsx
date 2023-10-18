@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import './reciclar.css'
+import './reciclar.scss'
 
 
 const Reciclar = () =>{

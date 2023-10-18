@@ -1,4 +1,4 @@
-import './principal.css'
+import './principal.scss'
 import {} from 'react'
 
 const Principal = () => {

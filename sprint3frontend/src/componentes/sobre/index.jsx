@@ -1,4 +1,4 @@
-import './sobre.css'
+import './sobre.scss'
 import imagemSobre from './imagemSobre.png'
 
 const Sobre = () => {

@@ -1,5 +1,5 @@
 import { } from 'react'
-import './objetivos.css'
+import './objetivos.scss'
 
 const Objetivos = () => {
     return (
