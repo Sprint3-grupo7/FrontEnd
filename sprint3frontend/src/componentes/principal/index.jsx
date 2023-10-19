@@ -10,7 +10,7 @@ const Principal = () => {
       <p>Seja bem-vindo ao nosso projeto, cujo principal propósito é incentivar e recompensar ações
          positivas das pessoas em prol do meio ambiente, gerando benefícios duradouros para o nosso planeta.
       </p>
-      <a href="#" className="btn">Cadastre-se</a>
+      <a href="#cadastro" className="btn">Cadastre-se</a>
     </div>
 
   </section>

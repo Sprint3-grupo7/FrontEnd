@@ -1,33 +1,41 @@
-.cadastro h2 {
-    margin-bottom: 3rem;
+
+.cadastro{
+    h2 {
+        margin-bottom: 3rem;
+    }
+
+    form {
+        max-width: 70rem;
+        margin: 1rem auto;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    form .caixa-input {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+        form input {
+            width: 100%;
+            padding: 1.5rem;
+            font-size: 1.6rem;
+            color: var(--cor-texto);
+            background: var(--cor-branca);
+            border-radius: .8rem;
+            margin: .9rem 0;
+            box-shadow: 0 .1rem .5rem var(--cor_sombra);
+        }
+
+        form .btn {
+            margin-top: 3rem;
+            cursor: pointer;
+        }
 }
 
-.cadastro form {
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.cadastro form .caixa-input {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.cadastro form .caixa-input input {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--cor-texto);
-    background: var(--cor-branca);
-    border-radius: .8rem;
-    margin: .9rem 0;
-    box-shadow: 0 .1rem .5rem var(--cor_sombra);
-}
 
 
-.cadastro form .btn {
-    margin-top: 3rem;
-    cursor: pointer;
-}
+
+
+

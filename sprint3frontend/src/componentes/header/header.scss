@@ -10,66 +10,66 @@
     z-index: 100;
 }
 
-.header.sticky {
-    transition: .4s;
-    background: var(--cor-fundo);
-    box-shadow: 0 .1rem 1rem var(--cor_sombra);
-}
+    .header.sticky {
+        transition: .4s;
+        background: var(--cor-fundo);
+        box-shadow: 0 .1rem 1rem var(--cor_sombra);
+    }
 
-.logo {
-    font-size: 3.6rem;
-    color: var(--cor-principal);
-    font-weight: bold;
-    cursor: default;
-    margin-right: auto;
-}
+    .logo {
+        font-size: 3.6rem;
+        color: var(--cor-principal);
+        font-weight: bold;
+        cursor: default;
+        margin-right: auto;
+    }
 
-.navbar a {
-    position: relative;
-    font-size: 2.2rem;
-    color: var(--cor-texto);
-    font-weight: 500;
-    margin-right: 3.5rem;
-}
+        .navbar a {
+            position: relative;
+            font-size: 2.2rem;
+            color: var(--cor-texto);
+            font-weight: 500;
+            margin-right: 3.5rem;
+        }
 
-.header.sticky .navbar a.active {
-    color: var(--cor-principal);
-}
-
-
-
-.navbar a.active::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 100%;
-    height: .2rem;
-    background: var(--cor-branca);
-}
+        .header.sticky .navbar a.active {
+            color: var(--cor-principal);
+        }
 
 
-.header.sticky .navbar a::before {
-    background: var(--cor-principal);
-    opacity: .7;
-}
 
-#darkMode-icon {
-    font-size: 2.4rem;
-    color: var(--cor-principal);
-    cursor: pointer;
-}
+        .navbar a.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            width: 100%;
+            height: .2rem;
+            background: var(--cor-branca);
+        }
 
-.header.sticky #darkModeIcon {
-    color: var(--cor-texto);
-    opacity: .9;
-}
 
-#menu-icon {
-    font-size: 3.6rem;
-    color: var(--cor-texto);
-    display: none;
-}
+        .header.sticky .navbar a::before {
+            background: var(--cor-principal);
+            opacity: .7;
+        }
+
+        #darkMode-icon {
+            font-size: 2.4rem;
+            color: var(--cor-principal);
+            cursor: pointer;
+        }
+
+        .header.sticky #darkModeIcon {
+            color: var(--cor-texto);
+            opacity: .9;
+        }
+
+        #menu-icon {
+            font-size: 3.6rem;
+            color: var(--cor-texto);
+            display: none;
+        }
 
 @media (max-width: 1024px){
     .header{

@@ -1,5 +1,5 @@
 import { } from 'react'
-import './premios.css'
+import './premios.scss'
 import logo1 from './logo1.jpeg'
 
 const Premios = () => {
